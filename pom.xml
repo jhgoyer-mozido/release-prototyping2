@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
-    <parent>
     <groupId>demo.jgoyer</groupId>
     <artifactId>repo-parent</artifactId>
     <packaging>pom</packaging>
     <version>1.0.0-SNAPSHOT</version>
-    </parent>
-
-    <groupId>demo.jgoyer</groupId>
-    <artifactId>projectA-parent</artifactId>
-    <packaging>pom</packaging>
-    <version>1.0.0-SNAPSHOT</version>
-    <name>projectA-parent</name>
+    <name>repo-parent</name>
     
     <scm>
         <connection>scm:git:https://github.com/jhgoyer-mozido/release-prototyping2.git</connection>
@@ -37,17 +29,13 @@
         </snapshotRepository>
     </distributionManagement>
 
-    <modules>
-    <module>projectA1</module>
-    <module>projectA2</module>
-  </modules>
-
     <build>
         <pluginManagement>
            <plugins>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-compiler-plugin</artifactId>
+                    <version>3.1</version>
                     <configuration>
                         <source>1.7</source>
                         <target>1.7</target>
@@ -55,22 +43,7 @@
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-jar-plugin</artifactId>
-                </plugin>
-                <!-- For some reason the 2.10 plugin, pulled in by default, has a problem
-                     with an implied dependency -->
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-surefire-plugin</artifactId>       
-                    <version>2.12</version>                  
-                </plugin>      
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-javadoc-plugin</artifactId>  
-                </plugin>     
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-archetype-plugin</artifactId>
+                    <artifactId>maven-release-plugin</artifactId>
                 </plugin>
             </plugins>
         </pluginManagement>
