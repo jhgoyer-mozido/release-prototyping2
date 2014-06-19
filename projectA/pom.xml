@@ -33,7 +33,7 @@
     <modules>
     <module>projectA1</module>
     <module>projectA2</module>
-  </modules>
+    </modules>
 
     <build>
         <pluginManagement>
@@ -46,10 +46,6 @@
                         <target>1.7</target>
                     </configuration>
                 </plugin>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-jar-plugin</artifactId>
-                </plugin>
                 <!-- For some reason the 2.10 plugin, pulled in by default, has a problem
                      with an implied dependency -->
                 <plugin>
@@ -59,11 +55,15 @@
                 </plugin>      
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-javadoc-plugin</artifactId>  
-                </plugin>     
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-archetype-plugin</artifactId>
+                    <artifactId>maven-release-plugin</artifactId>
+                    <version>2.4.2</version>  
+                    <dependencies>
+					    <dependency>
+					        <groupId>org.apache.maven.scm</groupId>
+					        <artifactId>maven-scm-provider-gitexe</artifactId>
+					        <version>1.7</version>
+					    </dependency>      
+				</dependencies>
                 </plugin>
             </plugins>
         </pluginManagement>
