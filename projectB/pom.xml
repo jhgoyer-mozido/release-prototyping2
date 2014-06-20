@@ -7,7 +7,7 @@
   <version>1.0.3-SNAPSHOT</version>
   <name>projectB</name>
 
-    <scm>
+<!--     <scm>
         <connection>scm:git:https://github.com/jhgoyer-mozido/release-prototyping2.git</connection>
         <developerConnection>scm:git:https://github.com/jhgoyer-mozido/release-prototyping2.git</developerConnection>
     </scm>
@@ -27,7 +27,7 @@
             <url>file:///Users/jgoyer1/work/workspace-32-release-ptype/m2/deployments</url>
             <layout>default</layout>
         </snapshotRepository>
-    </distributionManagement>
+    </distributionManagement> -->
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
