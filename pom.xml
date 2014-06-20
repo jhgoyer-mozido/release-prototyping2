@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    
-    <parent>
-	    <groupId>demo.jgoyer</groupId>
-	    <artifactId>version-management-parent</artifactId>
-	    <version>1.0.0</version>
-    </parent>
 
     <groupId>demo.jgoyer</groupId>
-    <artifactId>projectA-parent</artifactId>
+    <artifactId>version-management-parent</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.17-SNAPSHOT</version>
-    <name>projectA-parent</name>
+    <version>1.0.0</version>
+    <name>version-management-parent</name>
     
- <!--   
     <scm>
         <connection>scm:git:https://github.com/jhgoyer-mozido/release-prototyping2.git</connection>
         <developerConnection>scm:git:https://github.com/jhgoyer-mozido/release-prototyping2.git</developerConnection>
@@ -37,14 +30,6 @@
             <layout>default</layout>
         </snapshotRepository>
     </distributionManagement>
--->
-
-    <modules>
-    <module>projectA1</module>
-    <module>projectA2</module>
-    </modules>
- 
- <!--
 
     <build>
         <pluginManagement>
@@ -57,6 +42,8 @@
                         <target>1.7</target>
                     </configuration>
                 </plugin>
+                <!-- For some reason the 2.10 plugin, pulled in by default, has a problem
+                     with an implied dependency -->
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-surefire-plugin</artifactId>       
@@ -77,7 +64,5 @@
             </plugins>
         </pluginManagement>
     </build>
-   
- -->
   
 </project>
