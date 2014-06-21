@@ -11,7 +11,7 @@
     <groupId>demo.jgoyer</groupId>
     <artifactId>projectA-parent</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.37</version>
+    <version>1.0.38-SNAPSHOT</version>
     <name>projectA-parent</name>
     
  <!--   
@@ -79,8 +79,4 @@
     </build>
    
  -->
-
-  <scm>
-    <tag>projectA-1.0.37</tag>
-  </scm>
 </project>
