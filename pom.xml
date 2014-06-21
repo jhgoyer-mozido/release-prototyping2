@@ -11,7 +11,7 @@
     <scm>
         <connection>scm:git:https://github.com/jhgoyer-mozido/release-prototyping2.git</connection>
         <developerConnection>scm:git:https://github.com/jhgoyer-mozido/release-prototyping2.git</developerConnection>
-      <tag>projectB-1.0.28-branch</tag>
+      <tag>HEAD</tag>
   </scm>
     
     <distributionManagement>
