@@ -13,28 +13,6 @@
   <version>1.0.40-SNAPSHOT</version>
   <name>projectB</name>
 
-<!--     <scm>
-        <connection>scm:git:https://github.com/jhgoyer-mozido/release-prototyping2.git</connection>
-        <developerConnection>scm:git:https://github.com/jhgoyer-mozido/release-prototyping2.git</developerConnection>
-    </scm>
-
-    <distributionManagement>
-        <repository>
-            <uniqueVersion>false</uniqueVersion>
-            <id>demo</id>
-            <name>jgoyer demo repo</name>
-            <url>file:///Users/jgoyer1/work/workspace-32-release-ptype/m2/deployments</url>
-            <layout>default</layout>
-        </repository>
-        <snapshotRepository>
-            <uniqueVersion>true</uniqueVersion>
-            <id>demo</id>
-            <name>jgoyer demo repo</name>
-            <url>file:///Users/jgoyer1/work/workspace-32-release-ptype/m2/deployments</url>
-            <layout>default</layout>
-        </snapshotRepository>
-    </distributionManagement> -->
-
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
