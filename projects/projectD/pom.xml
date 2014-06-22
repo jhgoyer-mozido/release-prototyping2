@@ -6,6 +6,7 @@
 	    <groupId>demo.jgoyer</groupId>
 	    <artifactId>version-management-parent</artifactId>
 	    <version>1.0.0</version>
+	    <relativePath>../..</relativePath>
     </parent>
     
   <groupId>demo.jgoyer</groupId>
