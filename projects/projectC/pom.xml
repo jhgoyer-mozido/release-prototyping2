@@ -11,7 +11,7 @@
 
   <groupId>demo.jgoyer</groupId>
   <artifactId>projectC</artifactId>
-  <version>1.0.11</version>
+  <version>1.0.12-SNAPSHOT</version>
   <name>projectC</name>
 
   <properties>
@@ -25,8 +25,4 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-
-  <scm>
-    <tag>projectC-1.0.11</tag>
-  </scm>
 </project>
