@@ -24,8 +24,4 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-
-  <scm>
-    <tag>projectB-1.0.44-branch</tag>
-  </scm>
 </project>
