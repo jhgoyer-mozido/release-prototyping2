@@ -25,4 +25,8 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+
+  <scm>
+    <tag>projectC-1.0.17-branch</tag>
+  </scm>
 </project>
