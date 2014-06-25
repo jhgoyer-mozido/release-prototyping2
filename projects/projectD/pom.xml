@@ -10,7 +10,7 @@
     
   <groupId>demo.jgoyer</groupId>
   <artifactId>projectD</artifactId>
-  <version>1.0.1-SNAPSHOT</version>
+  <version>1.0.1</version>
   <name>projectD</name>
 
   <properties>
@@ -24,4 +24,8 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+
+  <scm>
+    <tag>projectD-1.0.1</tag>
+  </scm>
 </project>
