@@ -18,8 +18,4 @@
     <module>projectA1</module>
     <module>projectA2</module>
     </modules>
-
-  <scm>
-    <tag>projectA-1.0.48-branch</tag>
-  </scm>
 </project>
