@@ -11,7 +11,7 @@
     <groupId>demo.jgoyer</groupId>
     <artifactId>projectA-parent</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.50-SNAPSHOT</version>
+    <version>1.0.49.0-SNAPSHOT</version>
     <name>projectA-parent</name>
     
     <modules>
